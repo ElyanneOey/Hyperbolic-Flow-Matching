@@ -4,8 +4,8 @@
 #SBATCH --job-name=InstallHyperEnv
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=9
-#SBATCH --time=04:00:00
-#SBATCH --output=slurm_output_%A.out
+#SBATCH --time=00:30:00
+#SBATCH --output=logs/install_env_%A.out
 
 module purge
 module load 2024
